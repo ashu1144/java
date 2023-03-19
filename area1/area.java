@@ -14,6 +14,7 @@ public class area {
 
         System.out.print(area);
     
+        
     }
     
 }
