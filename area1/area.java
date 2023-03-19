@@ -13,11 +13,6 @@ public class area {
         int area = length * length;
 
         System.out.print(area);
-
-
-
-
-
     }
     
 }
