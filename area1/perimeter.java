@@ -6,6 +6,7 @@ public class perimeter {
         System.out.println("the length of the square ");
         Scanner sc = new Scanner(System.in);
         int square = sc.nextInt();
+        sc.close();
 
         int peri=4*square;
 

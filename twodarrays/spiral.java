@@ -1,8 +1,6 @@
-package arrays1;
+package twodarrays;
 
 import java.util.Scanner;
-
-import javax.security.sasl.SaslException;
 
 public class spiral {
 
@@ -31,6 +29,7 @@ public class spiral {
             for(int j=0;j<coloum;j++ ){
                 if(spiral1[i][j]==x){
                     System.out.println("the location of x is at the location " +( i + "," + j) );
+                sc.close();
                 }
 
             }

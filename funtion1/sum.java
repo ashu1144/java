@@ -1,6 +1,5 @@
 package funtion1;
 
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class sum {
@@ -17,7 +16,7 @@ public class sum {
 
         int sum = CalculateSum(a, b);
         System.out.println(sum);
-
+        sc.close();
 
         
         

@@ -18,6 +18,9 @@ public class rectangle_area_perimeter {
         System.out.println("the area  of rctangle is  " +  area_rec);
         System.out.println("the perimeter  of rctangle is  " +  peri_rec);
 
+        sc.close();
+        vc.close();
+
 
 
 

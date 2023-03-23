@@ -1,4 +1,4 @@
-package arrays1;
+package twodarrays;
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class twodarrays {
                 twodarrays[i][k] = sc.nextInt(); 
             }
         }
+        sc.close();
 
 
 

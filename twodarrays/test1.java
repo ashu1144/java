@@ -1,4 +1,4 @@
-package arrays1;
+package twodarrays;
 
 import java.util.Scanner;
 // also called leaner searching 
@@ -33,6 +33,7 @@ public class test1 {
             Scanner dc = new Scanner(System.in);
             int num = dc.nextInt();
             marks3[j] = num;
+            dc.close();
         }
 
         // find number in array
@@ -48,6 +49,8 @@ public class test1 {
           for(int k=0;k<marks3.length;k++){
             System.out.print(marks3[k] + " ");
         }
+        sc.close();
+        
 
 
 

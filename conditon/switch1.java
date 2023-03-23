@@ -1,12 +1,15 @@
+package conditon;
 import java.util.Scanner;
 
 public class switch1 {
 
+    private static Scanner vc;
+
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+        vc = new Scanner(System.in);
         System.out.println("enter yoour age ");
-        int age = sc.nextInt();
+        int age = vc.nextInt();
 
         switch(age){
             

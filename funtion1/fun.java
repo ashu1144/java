@@ -11,5 +11,6 @@ public class fun {
         Scanner  sc = new Scanner(System.in);
         String name  = sc.nextLine();
         PrintMyName(name);
+        sc.close();
     }    
 }

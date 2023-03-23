@@ -7,6 +7,7 @@ public class elseif1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter yoour age ");
         int age = sc.nextInt();
+        sc.close();
 
         if(age>60){
             System.out.println(" senior ");}
