@@ -8,6 +8,7 @@ public class strings {
 
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
+        sc.close();
 
         System.out.println("your name is "+name);
 
@@ -23,7 +24,7 @@ public class strings {
 
         }
 
-        fullname = fullname.substring(5, )
+        
 
         
     }
