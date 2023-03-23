@@ -19,10 +19,14 @@ public class strings {
         System.out.println(fullname);
         System.out.println(fullname.length());
         
-        for(int i =0;i<fullname.length();i++){
-            System.out.println(fullname.charAt(i));
+        // for(int i =0;i<fullname.length();i++){
+        //     System.out.println(fullname.charAt(i));
 
-        }
+        // }
+
+        // subtracting
+        String subname= fullname.substring(5);
+        System.out.println(subname);
 
         
 
