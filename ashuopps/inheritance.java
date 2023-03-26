@@ -12,7 +12,7 @@ class pen{
     }
 }
  
-class student{
+class student1{
     String name;
     int age;
 
@@ -26,7 +26,8 @@ class student{
 
 
 
-public class test1 {
+public class inheritance {
+    
     public static void main(String[] args) {
         pen pen1 = new pen();
         pen1.colour = "blue";
@@ -40,7 +41,7 @@ public class test1 {
        
        pen2.printcolour();
 
-       student std1 = new student();
+       student1 std1 = new student1();
        std1.name="ashu";
        std1.age=21;
 

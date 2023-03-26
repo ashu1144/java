@@ -30,6 +30,8 @@ public class poly {
         s1.printinfo(s1.name,s1.age );
         s1.printinfo();
         s1.printinfo(s1.age);
+
+        
     }
 
     
